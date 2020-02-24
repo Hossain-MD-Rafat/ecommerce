@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+.nav-link{
+    font-size: 16px ;
+    font-weight: 600;
+}
+.carousel
+{
+    padding: 10px 20px;
+}
+.carousel-item p{
+    color: grey;
+}
+.btn::after{
+    content: "\2192";
+}
+header, .smartphone, .laptop{
+    margin-bottom: 150px;
+}
+.card{
+    padding: 10px;
+    border: 1px solid #fff !important;
+    box-shadow: 5px 10px 5px lightgrey ;
+}
+.align-center{
+    display: block;
+    margin: 0 auto;
+}
+.card h6{
+    margin-top: 40px;
+}
+.smartphone h1, .laptop h1, .category h1{
+    margin-bottom: 40px;
+}
+.smartphone a, .laptop a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.smartphone a:hover, .laptop a:hover{
+    color: orange;
+}
+
+.img-center{
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.category{
+    margin-bottom: 70px;
+}
+.category h1{
+    border-bottom: 10px solid orange;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
